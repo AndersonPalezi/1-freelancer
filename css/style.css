@@ -63,6 +63,9 @@ header {
     display: block;
     background-color: #000000b6;
 }
+.btn-abrir-menu{
+   display: none;
+}
 
 .btn-abrir-menu i{
     color: #00ff08;
@@ -95,16 +98,11 @@ header {
     font-weight: 300;
     padding: 30px 10%;
     display: block;
-    
-    
     background-color: #000000;
-    
 }
 .menu-mobile nav ul li a:hover{
     background-color: #000000f6;
 }
-
-
 header>.interface {
     display: flex;
     align-items: center;
@@ -114,6 +112,9 @@ header>.interface {
 header a {
     color: #00ff08;
     display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 header.menu-desktop a:hover {
